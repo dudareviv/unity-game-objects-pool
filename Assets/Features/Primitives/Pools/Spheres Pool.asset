@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf3b5a448b82741ae91d91fa7b7cbbda, type: 3}
+  m_Name: Spheres Pool
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5294039921874759299, guid: f9b3296c2177047898678a5a1b111f40, type: 3}
+  defaultCapacity: 4
+  maxSize: 256
+  collectionCheck: 1
+  onGet:
+    m_PersistentCalls:
+      m_Calls: []
+  onRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
