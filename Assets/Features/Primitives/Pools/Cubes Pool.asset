@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf3b5a448b82741ae91d91fa7b7cbbda, type: 3}
   m_Name: Cubes Pool
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7900610324956646720, guid: d8b1f21287b7a490cacfa18500145c50, type: 3}
+  prefab: {fileID: 8742317264731055941, guid: 6e1d6763a7c3040259d09ac17798224c, type: 3}
   defaultCapacity: 4
   maxSize: 256
   collectionCheck: 1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf3b5a448b82741ae91d91fa7b7cbbda, type: 3}
   m_Name: Spheres Pool
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5294039921874759299, guid: f9b3296c2177047898678a5a1b111f40, type: 3}
+  prefab: {fileID: 4262357372929728141, guid: dd7128bada9fa489bbe5a76bcf84e105, type: 3}
   defaultCapacity: 4
   maxSize: 256
   collectionCheck: 1
