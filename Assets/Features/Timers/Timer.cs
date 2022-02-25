@@ -68,6 +68,7 @@ namespace Core.Timers
 
             _coroutine = StartCoroutine(Handle());
 
+            Debug.Log("Timer is started", gameObject);
             onStarted?.Invoke();
 
             if (isStarted)
@@ -90,6 +91,7 @@ namespace Core.Timers
 
             _coroutine = StartCoroutine(Handle());
 
+            Debug.Log("Timer is resumed", gameObject);
             onResumed?.Invoke();
         }
 
@@ -104,6 +106,7 @@ namespace Core.Timers
             StopCoroutine(_coroutine);
             _coroutine = null;
 
+            Debug.Log("Timer is paused", gameObject);
             onPaused?.Invoke(GetProgress());
         }
 
@@ -121,6 +124,7 @@ namespace Core.Timers
             StopCoroutine(_coroutine);
             _coroutine = null;
 
+            Debug.Log("Timer is stopped", gameObject);
             onStopped?.Invoke();
         }
 
